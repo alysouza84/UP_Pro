@@ -15,10 +15,11 @@ typedef struct{
 int menu(){
     int option;
     puts("\n---------- Sistema Estacionamento ----------"
-       "\n[1] Cadastro Carro.\n"
+       "\n[1] CADASTRO Carro.\n"
          "[2] Saída do Veículo.\n"
          "[3] Consulta Carros Estacionados.\n"
-         "[4] Sair do aplicatico.");
+         "[4] Sair do APLICATICO.");
+         "[5] TESTE COMMIT"
     scanf("%i", &option);
     return option;
 }
