@@ -44,7 +44,7 @@ puts("\n");
             for(int j = 0; j < 3; j++){
                 printf("%d\t", matrixC[i][j]);
             }
-        puts("\n");    
+    puts("\n");    
     }
 
    return 0;

@@ -1,8 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-
-
 // Defina uma matriz com 3 linhas e 5 colunas e imprima o somatório dos elementos de sua última coluna.
 
 // int main(void){
