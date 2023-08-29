@@ -17,7 +17,7 @@ int main(void){
     scanf("%lf", &numero);
 
     if (numero < 0){
-        printf("Número Fatorial não pode ser negativo...");
+        printf("numero não negativo...");
     }
     else{
         resultado = funcao(numero);
