@@ -1,17 +1,34 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
 
-void reverse(char *str){
+void reverse(char *str, char *result){
     if (*str){
-        reverse(str + 1);
-        printf("%c", *str);
+    reverse(str + 1);      
+    }
+    for (int i = 0; i < strlen(*str); i++){
+        result[i] = str[i];
     }
 }
 
 int main (){
     char a[50];
+    char result[50];
     printf("Digite uma palavra ou frase: ");
+    //scanf("%[^s\n]*c", a);
     fgets(a, sizeof(a), stdin);
-    reverse(a);
+    // reverse(a);
+    // puts("\n");
+
+   for(int i = 0; i < strlen(a); i++){
+        printf("%c", *result);
+   }
+
+    // for (int i = strlen(a); i >= 0; i--){
+    //     printf("%c", a[i]);
+    // }
+
 return 0;
 }
 
